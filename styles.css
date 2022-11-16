@@ -1,0 +1,162 @@
+*
+{
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: rgb(41, 33, 33);
+
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    background-image: linear-gradient(to bottom right, rgba(187, 58, 26, 0.726), rgb(224, 172, 61));
+}
+
+
+.container
+{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header
+{
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+
+.button
+{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+}
+
+
+.button-primary
+{
+    color: white;
+    background-color: #35a8ce;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.button-primary:hover
+{
+    background-color: #2242d1;
+}
+
+/* Cover section*/
+
+.top-cover
+{
+    background-image: url(Images/hotel-cover.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.cover-contents
+{
+    height: 300px;
+    width: 100%;
+}
+
+/* Menu section*/
+
+.shop-items
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.shop-item
+{
+    margin: 30px;
+    width: 250px;
+}
+
+.shop-item-title
+{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.shop-item-image
+{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.shop-item-details
+{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price
+{
+    flex-grow: 1;
+    color: #333;
+}
+
+/* Cart section*/
+
+.button-danger
+{
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.button-danger:hover
+{
+    background-color: #CC4C4C;
+}
+
+.cart-total
+{
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title
+{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price
+{
+    color: #333;
+    font-size: 1.1em;
+}
+
+.button-purchase
+{
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.5em;
+}
